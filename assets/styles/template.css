@@ -51,6 +51,24 @@ body {
 
 .content { padding: 10px 20px; }
 
+body > nav {
+    font-size: .85em;
+    background: rgba(0,0,0,0.68);
+    padding: 10px 8px 8px 8px;
+    border-bottom: 4px solid rgba(0,0,0,0.38);
+}
+
+body > nav > div {
+    width: 1080px; margin: 0 auto;
+}
+
+body > nav > div > a {
+    color: #d0d0d0;
+    text-decoration: none;
+    padding: 10px 12px 8px 12px;
+    transition: .15s;
+}
+body > nav > div > a:hover { color: #fff; background: rgba(255,255,255,.15);}
 
 /* Element Styles
 ******************************************************* Element Styles ***/
@@ -71,6 +89,7 @@ button, .button, input[type=button] {
     color: #ffffff;
     font-size: 1.1em;
     text-decoration: none;
+    transition: .2s;
 }
 button:hover, .button:hover, input[type=button]:hover { background: #5180d6; cursor: pointer; }
 button:active, .button:active, input[type=button]:active { background: #366ccf; }
